@@ -1,7 +1,42 @@
-<!doctype html><html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>테스트 책 1</title>
-<style>body{font-family:-apple-system,'Noto Sans KR',sans-serif;line-height:1.75;max-width:760px;margin:40px auto;padding:0 20px;color:#1a1a1a}.cover{text-align:center;margin:8vh 0 12vh}.cover h1{font-size:2.4rem;margin:0}h3{font-size:1.2rem;margin:1.6em 0 .4em}.chapter{margin:1.8em 0 .6em}p{margin:.2em 0}</style></head>
-<body><div class="cover"><h1>테스트 책 1</h1></div><section><h3>제1장 어쩌구</h3><p>어쩌구 저쩌구</p>
+<!doctype html>
+<html><head><meta charset="utf-8"><title>Untitled1</title>
+<style>
+  body { font-family: -apple-system, "Noto Sans KR", sans-serif; line-height: 1.75; max-width: 760px; margin: 40px auto; padding: 0 20px; color: #1a1a1a; }
+  .cover { text-align: center; display: flex; flex-direction: column; align-items: center; justify-content: center; }
+  .cover-full { min-height: 86vh; margin: 0 0 36px; page-break-after: always; break-after: page; }
+  .cover-compact { margin: .5em 0 2.2em; }
+  .cover-img { max-width: 70%; max-height: 52vh; object-fit: contain; border-radius: 6px; margin: 0 0 1.6em; box-shadow: 0 4px 16px rgba(0,0,0,.18); }
+  .cover-compact .cover-img { max-height: 30vh; margin-bottom: 1em; }
+  .cover-title { font-size: 2.4rem; font-weight: 800; margin: 0 0 .3em; line-height: 1.2; }
+  .cover-compact .cover-title { font-size: 1.9rem; }
+  .cover-subtitle { font-size: 1.3rem; color: #666; margin: 0 0 1.4em; }
+  .cover-compact .cover-subtitle { font-size: 1.1rem; margin: 0 0 .6em; }
+  .cover-author { font-size: 1.15rem; margin: .2em 0; } .cover-date { color: #888; margin-top: .3em; }
+  .sec { margin: 0 0 2.4em; } .sec-title { font-size: 1.2rem; font-weight: 700; margin: 0 0 .6em; }
+  .chapter { font-weight: 800; line-height: 1.3; }
+  .chapter-d1 { font-size: 1.7rem; margin: 1.8em 0 .8em; }
+  .chapter-d2 { font-size: 1.4rem; margin: 1.4em 0 .6em; } .chapter-d3 { font-size: 1.2rem; margin: 1.2em 0 .5em; }
+  .toc { margin: 0 0 2.6em; padding: 1em 1.2em; border: 1px solid #ddd; border-radius: 10px; }
+  .toc-title { font-weight: 800; font-size: 1.15rem; margin: 0 0 .6em; }
+  .toc ul { list-style: none; margin: 0; padding: 0; } .toc li { margin: .18em 0; }
+  .toc a { color: #1a1a1a; text-decoration: none; } .toc a:hover { text-decoration: underline; }
+  .toc-d1 { font-weight: 700; margin-top: .5em; } .toc-d2 { padding-left: 1.2em; } .toc-d3 { padding-left: 2.4em; }
+  sup.fn-ref a, sup.cite-ref a { color: #9c3848; text-decoration: none; font-weight: 600; }
+  .cite-ay a { color: #9c3848; text-decoration: none; }
+  .endnotes, .references { font-size: .92rem; line-height: 1.6; padding-left: 1.4em; } .endnotes li, .references li { margin: .4em 0; }
+  .fn-back { margin-left: .4em; text-decoration: none; color: #9c3848; }
+  .index-list { column-count: 2; column-gap: 2.4em; list-style: none; margin: 0; padding: 0; font-size: .95rem; }
+  .index-list li { margin: .25em 0; break-inside: avoid; }
+  .index-list a { color: #1a1a1a; text-decoration: none; } .index-list a:hover { text-decoration: underline; }
+  .index-list .idx-link { color: #9c3848; margin: 0 .25em; font-weight: 600; }
+  .csl-bib { font-size: .95rem; line-height: 1.55; } .csl-bib .csl-entry { display: flex; gap: .5em; margin: .45em 0; }
+  .csl-bib .csl-left-margin { flex: 0 0 auto; min-width: 1.8em; } .csl-bib .csl-right-inline { flex: 1; }
+  img { max-width: 100%; } pre { overflow:auto; background:#f6f6f6; padding:12px; border-radius:8px; }
+  blockquote { border-left:3px solid #ddd; margin:1em 0; padding:0 1em; color:#666; }
+  table { border-collapse: collapse; } td,th { border:1px solid #ddd; padding:4px 8px; }
+</style></head>
+<body><div class="wm-doc"><section class="cover cover-full"><h1 class="cover-title">Untitled1</h1></section><nav class="toc"><div class="toc-title">목차</div><ul><li class="toc-d0"><a href="#section-4">제1장 어쩌구</a></li><li class="toc-d0"><a href="#section-5">제2장 저쩌구</a></li><li class="toc-d1"><a href="#chapter-11">제3장 ㅇㅇㅇㅇ</a></li><li class="toc-d1"><a href="#section-7">3.1 ㅇㅇㅇㅇ</a></li><li class="toc-d1"><a href="#section-8">3.2 ㄴㅇㄹㄴㅇㄹㄴ</a></li><li class="toc-d0"><a href="#section-6">제4장</a></li><li class="toc-d1"><a href="#notes">각주</a></li><li class="toc-d1"><a href="#references">참고문헌</a></li><li class="toc-d1"><a href="#index">색인</a></li></ul></nav><section class="sec" id="section-4"><h3 class="sec-title">제1장 어쩌구</h3><div class="sc-cyJtFC dYdXIy markdown-view markdown-content"><p>어쩌구 <span class="idx-term" id="idx-1">저쩌구</span></p>
 <p>​</p>
-<p>이것은 양자역학 의 기본 원리다.</p></section><section><h3>제2장 저쩌구</h3><p>ㄴㄴㄴㄴㄴㄴ</p>
+<p>이것은 <span class="idx-term" id="idx-2">양자역학</span> 의 기본 원리다.</p></div></section><section class="sec" id="section-5"><h3 class="sec-title">제2장 저쩌구</h3><div class="sc-cyJtFC dYdXIy markdown-view markdown-content"><p>ㄴㄴㄴㄴㄴㄴ</p>
 <p>​</p>
-<p>테스트, 홍길동, 책제목, 2026</p></section><h3 class="chapter">제3장 ㅇㅇㅇㅇ</h3><section><h3>3.1 ㅇㅇㅇㅇ</h3><p>ㅓㅏㅓㅣㅏㅓㅣㅓ</p></section><section><h3>3.2 ㄴㅇㄹㄴㅇㄹㄴ</h3><p>ㅏㅓㅣㅣㅓㅓㅣ</p></section><section><h3>제4장</h3><p>ㅇㅇㅇㅇㅇ</p></section></body></html>
+<p><sup class="fn-ref" id="fnref-1"><a href="#fn-1">1</a></sup>, <sup class="cite-ref"><a href="#ref-lit-1">[1]</a></sup></p></div></section><h2 id="chapter-11" class="chapter chapter-d1">제3장 ㅇㅇㅇㅇ</h2><section class="sec" id="section-7"><h3 class="sec-title">3.1 ㅇㅇㅇㅇ</h3><div class="sc-cyJtFC dYdXIy markdown-view markdown-content"><p>ㅓㅏㅓㅣㅏㅓㅣㅓ</p></div></section><section class="sec" id="section-8"><h3 class="sec-title">3.2 ㄴㅇㄹㄴㅇㄹㄴ</h3><div class="sc-cyJtFC dYdXIy markdown-view markdown-content"><p>ㅏㅓㅣㅣㅓㅓㅣ</p></div></section><section class="sec" id="section-6"><h3 class="sec-title">제4장</h3><div class="sc-cyJtFC dYdXIy markdown-view markdown-content"><p>ㅇㅇㅇㅇㅇ</p></div></section><h2 id="notes" class="chapter chapter-d1">각주</h2><ol class="endnotes"><li id="fn-1">테스트 <a class="fn-back" href="#fnref-1">↩</a></li></ol><h2 id="references" class="chapter chapter-d1">참고문헌</h2><ol class="references"><li id="ref-lit-1">홍길동, 책제목, 2026</li></ol><h2 id="index" class="chapter chapter-d1">색인</h2><ul class="index-list"><li><a href="#idx-2">양자역학</a></li><li><a href="#idx-1">저쩌구</a></li></ul></div></body></html>
